@@ -40,7 +40,5 @@ for report in unsafe:
         if unsafeCheck(tmpReport) == True:
             approved += 1
             break
-        
-        tmpReport = copy(report)
 
 print(f"Part two: {approved}")
